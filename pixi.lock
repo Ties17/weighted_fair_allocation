@@ -1100,8 +1100,8 @@ packages:
   timestamp: 1753739241918
 - pypi: ./
   name: weighted-fair-allocation
-  version: 0.1.0
-  sha256: b2f8683185cd9757c3e020acb8df4ff6cb2fa362e4b26515145f46f01eca90eb
+  version: 1.0.0
+  sha256: d240042b986c3f5149b3fec15420e8df6b139f92326060f834d5740910cee083
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/win-64/xorg-libice-1.1.2-h0e40799_0.conda

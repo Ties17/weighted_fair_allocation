@@ -2,7 +2,7 @@
 dependencies = []
 name = "weighted_fair_allocation"
 requires-python = ">= 3.11"
-version = "0.1.0"
+version = "1.0.0"
 authors = [
   { name="Ties Tienhoven", email="ttienhoven+WFA@outlook.com" },
 ]
@@ -25,6 +25,7 @@ weighted_fair_allocation = { path = ".", editable = true }
 
 [tool.pixi.tasks]
 build = "python -m build"
+publish = "python -m twine upload dist/* --verbose"
 
 [tool.pixi.dependencies]
 python = ">=3.13.5,<3.14"
