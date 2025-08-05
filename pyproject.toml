@@ -11,6 +11,10 @@ readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
+[project.urls]
+Homepage = "https://github.com/Ties17/weighted_fair_allocation"
+PyPi-Package = "https://pypi.org/project/weighted-fair-allocation"
+
 [build-system]
 build-backend = "hatchling.build"
 requires = ["hatchling"]
